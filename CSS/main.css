@@ -38,3 +38,18 @@
 .hero-banner {
     width: 100%;
 }
+
+.card {
+    border: 1px solid #dfdfdf;
+    width: 80%;
+    margin: 2rem auto;
+}
+
+.card-header .btn {
+    margin-left: auto;
+}
+
+.card-body {
+    display: flex;
+    gap: 3rem;
+}
