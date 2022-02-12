@@ -1,0 +1,40 @@
+.search-input {
+    font-size: 1rem;
+    margin: auto;
+    padding-left: 4rem;
+    background-image: url('/assets/search.svg');
+    background-repeat: no-repeat;
+    background-position: 1rem;
+}
+
+.nav-container {
+    width: 80%;
+    margin: auto;
+}
+
+.inline-block {
+    display: inline-block;
+}
+
+.link {
+    text-decoration: none;
+}
+
+.black-color {
+    color: var(--primary-black-color);
+}
+
+.main-links {
+    width: 80%;
+    margin: auto;
+}
+
+.main-links > li {
+    padding: 1rem;
+    margin: 1rem 2rem;
+    font-size: 1.2rem;
+}
+
+.hero-banner {
+    width: 100%;
+}
