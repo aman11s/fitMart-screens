@@ -1,0 +1,80 @@
+@import './navbar.css';
+
+.short-width {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.inline-block {
+    display: inline-block;
+}
+
+.link {
+    text-decoration: none;
+}
+
+.link:hover {
+    color: var(--primary-color);
+}
+
+.black-color {
+    color: var(--primary-black-color);
+}
+
+.main-links > li {
+    padding: 1rem;
+    margin: 1rem 2rem;
+    font-size: 1.2rem;
+}
+
+.product-y-card {
+    width: auto;
+}
+
+.card-header .btn {
+    margin-left: auto;
+}
+
+.product-wishlist-icon {
+    padding: 0;
+    top: 0;
+    right: 0;
+    font-size: 1.5rem;
+}
+
+.grid-minmax-card {
+    display: grid;
+    gap: 2rem;
+    grid-template-columns: repeat(auto-fit, minmax(12rem, 2fr));
+}
+
+@media screen and (max-width: 950px) {
+    
+    .main-links > li {
+        margin: 0.5rem;
+        padding: 0.5rem;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    
+    .short-width {
+        width: 85%;
+    }
+
+    .hide {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    
+    .short-width {
+        width: 90%;
+    }
+
+    .grid-minmax-card-center {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}

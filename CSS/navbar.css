@@ -1,0 +1,30 @@
+.search-input {
+    font-size: 1rem;
+    margin: auto;
+    padding-left: 3.5rem;
+    background-image: url('/assets/search.svg');
+    background-repeat: no-repeat;
+    background-position: 1rem;
+}
+
+.right-nav li {
+    margin: 0.5rem 1rem;
+}
+
+@media screen and (max-width: 950px) {
+
+    .left-nav {
+        margin: 0.5rem 0 0;
+    }
+
+    .right-nav {
+        margin: 0.5rem 0 0;
+        margin-left: auto;
+    }
+    
+    .search-input {
+        order: 2;
+        width: 100%;
+        margin: 0.5rem auto 0.8rem;
+    }
+}
