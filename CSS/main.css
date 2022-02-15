@@ -1,15 +1,9 @@
-.search-input {
-    font-size: 1rem;
-    margin: auto;
-    padding-left: 4rem;
-    background-image: url('/assets/search.svg');
-    background-repeat: no-repeat;
-    background-position: 1rem;
-}
+@import './navbar.css';
 
-.nav-container {
+.short-width {
     width: 80%;
-    margin: auto;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .inline-block {
@@ -20,13 +14,12 @@
     text-decoration: none;
 }
 
-.black-color {
-    color: var(--primary-black-color);
+.link:hover {
+    color: var(--primary-color);
 }
 
-.main-links {
-    width: 80%;
-    margin: auto;
+.black-color {
+    color: var(--primary-black-color);
 }
 
 .main-links > li {
@@ -35,21 +28,53 @@
     font-size: 1.2rem;
 }
 
-.hero-banner {
-    width: 100%;
-}
-
-.card {
-    border: 1px solid #dfdfdf;
-    width: 80%;
-    margin: 2rem auto;
+.product-y-card {
+    width: auto;
 }
 
 .card-header .btn {
     margin-left: auto;
 }
 
-.card-body {
-    display: flex;
-    gap: 3rem;
+.product-wishlist-icon {
+    padding: 0;
+    top: 0;
+    right: 0;
+    font-size: 1.5rem;
+}
+
+.grid-minmax-card {
+    display: grid;
+    gap: 2rem;
+    grid-template-columns: repeat(auto-fit, minmax(12rem, 2fr));
+}
+
+@media screen and (max-width: 950px) {
+    
+    .main-links > li {
+        margin: 0.5rem;
+        padding: 0.5rem;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    
+    .short-width {
+        width: 85%;
+    }
+
+    .hide {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    
+    .short-width {
+        width: 90%;
+    }
+
+    .grid-minmax-card-center {
+        grid-template-columns: repeat(2, 1fr);
+    }
 }

@@ -7,154 +7,171 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://colorant-ui.netlify.app/CSS/main.css">
     <link rel="stylesheet" href="./CSS/main.css">
-    <title>Document</title>
+    <title>home | fitMart</title>
 </head>
 
 <body>
-    <header>
-        <nav class="nav-bar shadow">
-            <div class="nav-container container-flex">
-                <div class="left-nav">
-                    <a class="h2" href="#"><span class="primary-text-color">fit</span>Mart</a>
-                </div>
+    <!-- Navbar -->
+
+    <nav class="nav-bar shadow">
+        <div class="container-flex-align-center short-width">
+            <div class="left-nav">
+                <a class="h2" href="#"><span class="primary-text-color">fit</span>Mart</a>
+            </div>
+
+            <!-- search input -->
+            <input type="text" class="input-box search-input input-default" placeholder="search">
     
-                <input type="text" class="input-box search-input input-default" placeholder="search">
+            <ul class="hide right-nav">
+                <li>
+                    <a href="#" class="nav-pills">
+                        <button class="btn primary-solid-btn">Login</button>
+                    </a>
+                </li>
     
-                <ul class="right-nav">
-                    <li>
-                        <a href="#">
+    
+                <li>
+                    <a href="#" class="nav-pills badge-container inline-block">
+                        <i class='badge-container-icon bx bx-heart'></i>
+                        <span class="icon-badge-number dnd">10</span>
+                    </a>
+                </li>
+    
+                <li>
+                    <a href="#" class="nav-pills badge-container inline-block">
+                        <i class='badge-container-icon bx bx-cart'></i>
+                        <div class="icon-badge-number dnd">10</div>
+                    </a>
+                </li>
+            </ul>
+    
+            <!-- Hamburger Menu for smaller display -->
+            <i class='hamburger-icon bx bx-menu'></i>
+            <div class="hamburger-menu">
+                <i class='hamburger-close bx bx-x'></i>
+                <ul class="hamburger-list">
+                    <li class="hamburger-link">
+                        <a href="#" class="nav-pills">
                             <button class="btn primary-solid-btn">Login</button>
                         </a>
                     </li>
-    
-    
-                    <li>
-                        <a href="#" class="badge-container inline-block">
-                            <i class='badge-container-icon bx bx-heart'></i>
-                            <span class="icon-badge-number dnd">10</span>
-                        </a>
-                    </li>
-    
-                    <li>
-                        <a href="#" class="badge-container inline-block">
-                            <i class='badge-container-icon bx bx-cart'></i>
-                            <div class="icon-badge-number dnd">10</div>
-                        </a>
-                    </li>
+                    <li class="hamburger-link"><a href="./docsite.html">Wishlist</a></li>
+                    <li class="hamburger-link"><a href="https://github.com/aman11s/Colorant-UI">Cart</a></li>
                 </ul>
             </div>
-        </nav>
-    </header>
+        </div>
+    </nav>
 
     <main>
-        <ul class="main-links container-flex">
+        <ul class="main-links hide short-width container-flex">
             <li>
-                <a href="#" class="primary-link black-color link">Category</a>
+                <a href="#" class="black-color link">Category</a>
             </li>
             <li>
-                <a href="#" class="primary-link black-color link">Brands</a>
+                <a href="#" class="black-color link">Brands</a>
             </li>
             <li>
-                <a href="#" class="primary-link black-color link">Wellness</a>
+                <a href="#" class="black-color link">Wellness</a>
             </li>
             <li>
-                <a href="#" class="primary-link black-color link">Bestsellers</a>
+                <a href="#" class="black-color link">Bestsellers</a>
             </li>
             <li>
-                <a href="#" class="primary-link black-color link">Goals</a>
+                <a href="#" class="black-color link">Goals</a>
             </li>
         </ul>
- 
-        <img class="hero-banner" src="./assets/hero-banners/banner.webp" alt="hero-banner">
 
-        <div class="card">
+        <img class="img-responsive" src="./assets/hero-banners/banner.webp" alt="hero-banner">
+
+        <div class="card short-width m-4">
             <div class="card-header">
                 <div class="card-title">Card Title</div>
                 <button class="btn primary-solid-btn">View All</button>
             </div>
-            <div class="card-body">
-                <div class="card">
+
+            <div class="grid-minmax-card p-2">
+                <div class="vertical-card product-y-card">
                     <div class="card-header">
                         <div class="card-img-container">
-                            <img class="card-img" src="./components/Images/card-man-img.jpeg" alt="men-shacket">
-                            <i class='card-wishlist-icon bx bx-heart'></i>
+                            <img class="card-img" src="/assets/products/ON-Whey-Protein-5-lb.webp" alt="men-shacket">
+                            <i class='card-wishlist-icon product-wishlist-icon bx bx-heart'></i>
                         </div>
                     </div>
                     <div class="card-body">
-                        <div class="item-price">Rs. 5,999</div>
-                        <div class="card-description">Men's grey shacket</div>
+                        <div class="item-price">Rs. 6,999</div>
+                        <div class="card-description">ON Whey Protein Powder</div>
                     </div>
                     <div class="card-footer">
                         <button class="btn card-btn primary-outline-btn primary-btn-text-icon">
                             <i class='btn-icon bx bxs-cart'></i>Add to cart
                         </button>
-    
+
                         <button class="btn card-btn primary-solid-btn primary-btn-text-icon">
                             <i class='btn-icon bx bxs-bolt'></i>Buy Now
                         </button>
                     </div>
                 </div>
 
-                <div class="card">
+                <div class="vertical-card product-y-card">
                     <div class="card-header">
                         <div class="card-img-container">
-                            <img class="card-img" src="./components/Images/card-man-img.jpeg" alt="men-shacket">
-                            <i class='card-wishlist-icon bx bx-heart'></i>
+                            <img class="card-img" src="/assets/products/ON-Whey-Protein-5-lb.webp" alt="men-shacket">
+                            <i class='card-wishlist-icon product-wishlist-icon bx bx-heart'></i>
                         </div>
                     </div>
                     <div class="card-body">
-                        <div class="item-price">Rs. 5,999</div>
-                        <div class="card-description">Men's grey shacket</div>
+                        <div class="item-price">Rs. 6,999</div>
+                        <div class="card-description">ON Whey Protein Powder</div>
                     </div>
                     <div class="card-footer">
                         <button class="btn card-btn primary-outline-btn primary-btn-text-icon">
                             <i class='btn-icon bx bxs-cart'></i>Add to cart
                         </button>
-    
+
                         <button class="btn card-btn primary-solid-btn primary-btn-text-icon">
                             <i class='btn-icon bx bxs-bolt'></i>Buy Now
                         </button>
                     </div>
                 </div>
 
-                <div class="card">
+                <div class="vertical-card product-y-card">
                     <div class="card-header">
                         <div class="card-img-container">
-                            <img class="card-img" src="./components/Images/card-man-img.jpeg" alt="men-shacket">
-                            <i class='card-wishlist-icon bx bx-heart'></i>
+                            <img class="card-img" src="/assets/products/ON-Whey-Protein-5-lb.webp" alt="men-shacket">
+                            <i class='card-wishlist-icon product-wishlist-icon bx bx-heart'></i>
                         </div>
                     </div>
                     <div class="card-body">
-                        <div class="item-price">Rs. 5,999</div>
-                        <div class="card-description">Men's grey shacket</div>
+                        <div class="item-price">Rs. 6,999</div>
+                        <div class="card-description">ON Whey Protein Powder</div>
                     </div>
                     <div class="card-footer">
                         <button class="btn card-btn primary-outline-btn primary-btn-text-icon">
                             <i class='btn-icon bx bxs-cart'></i>Add to cart
                         </button>
-    
+
                         <button class="btn card-btn primary-solid-btn primary-btn-text-icon">
                             <i class='btn-icon bx bxs-bolt'></i>Buy Now
                         </button>
                     </div>
                 </div>
 
-                <div class="card">
+                <div class="vertical-card product-y-card">
                     <div class="card-header">
                         <div class="card-img-container">
-                            <img class="card-img" src="./components/Images/card-man-img.jpeg" alt="men-shacket">
-                            <i class='card-wishlist-icon bx bx-heart'></i>
+                            <img class="card-img" src="/assets/products/ON-Whey-Protein-5-lb.webp" alt="men-shacket">
+                            <i class='card-wishlist-icon product-wishlist-icon bx bx-heart'></i>
                         </div>
                     </div>
                     <div class="card-body">
-                        <div class="item-price">Rs. 5,999</div>
-                        <div class="card-description">Men's grey shacket</div>
+                        <div class="item-price">Rs. 6,999</div>
+                        <div class="card-description">ON Whey Protein Powder</div>
                     </div>
                     <div class="card-footer">
                         <button class="btn card-btn primary-outline-btn primary-btn-text-icon">
                             <i class='btn-icon bx bxs-cart'></i>Add to cart
                         </button>
-    
+
                         <button class="btn card-btn primary-solid-btn primary-btn-text-icon">
                             <i class='btn-icon bx bxs-bolt'></i>Buy Now
                         </button>
@@ -162,9 +179,19 @@
                 </div>
             </div>
         </div>
-
     </main>
 
+    <footer class="footer-container p-2">
+        <p class="pt-1 pb-2 small-text">Made with <span class="black-text-color">&lt;/></span> by Aman Singh </p>
+        <ul>
+            <li class="footer-link"><a href="https://github.com/aman11s" target="_blank"><i class='bx bxl-github'></i></a></li>
+            <li class="footer-link"><a href="https://twitter.com/aman11s" target="_blank"><i class='bx bxl-twitter' ></i></a></li>
+            <li class="footer-link"><a href="https://www.linkedin.com/in/aman11s/" target="_blank"><i class='bx bxl-linkedin-square'></i></a></li>
+        </ul>
+        <div>&copy 2022 | fitMart | All Rights Reserved</div>
+    </footer>
+    
+    <script src="https://colorant-ui.netlify.app/JS/navbar.js"></script>
 </body>
 
 </html>
