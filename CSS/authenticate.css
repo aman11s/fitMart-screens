@@ -1,0 +1,33 @@
+.main-center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.authenticate-form {
+    min-width: 27.5rem;
+    border: 1px solid var(--light-grey-color);
+}
+
+.authenticate-form .input-box {
+    width: 100%;
+}
+
+.auth-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.auth-link:hover {
+    color: var(--primary-color);
+}
+
+.authenticate-form .btn {
+    display: block;
+    width: 100%;
+}
+
+.right-arrow-icon {
+    font-size: 2rem;
+}

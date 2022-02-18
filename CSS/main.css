@@ -1,4 +1,5 @@
 @import './navbar.css';
+@import './authenticate.css';
 
 .short-width {
     width: 80%;
@@ -28,7 +29,7 @@
     font-size: 1.2rem;
 }
 
-.product-y-card {
+.auto-width {
     width: auto;
 }
 
