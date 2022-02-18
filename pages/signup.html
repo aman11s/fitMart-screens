@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://colorant-ui.netlify.app/CSS/main.css">
+    <link rel="stylesheet" href="/CSS/main.css">
+    <title>login | fitMart</title>
+</head>
+
+<body>
+    <!-- Navbar -->
+
+    <nav class="nav-bar shadow">
+        <div class="container-flex-align-center short-width">
+            <div class="left-nav">
+                <a class="h2" href="/index.html"><span class="primary-text-color">fit</span>Mart</a>
+            </div>
+
+            <!-- search input -->
+            <input type="text" class="input-box search-input input-default" placeholder="search">
+
+            <ul class="hide right-nav">
+                <li>
+                    <a href="./login.html" class="nav-pills">
+                        <button class="btn primary-solid-btn">Login</button>
+                    </a>
+                </li>
+
+
+                <li>
+                    <a href="#" class="nav-pills badge-container inline-block">
+                        <i class='badge-container-icon bx bx-heart'></i>
+                        <span class="icon-badge-number dnd">5</span>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#" class="nav-pills badge-container inline-block">
+                        <i class='badge-container-icon bx bx-cart'></i>
+                        <div class="icon-badge-number dnd">3</div>
+                    </a>
+                </li>
+            </ul>
+
+            <!-- Hamburger Menu for smaller display -->
+            <i class='hamburger-icon bx bx-menu'></i>
+            <div class="hamburger-menu">
+                <i class='hamburger-close bx bx-x'></i>
+                <ul class="hamburger-list">
+                    <li class="hamburger-link">
+                        <a href="./login.html" class="nav-pills">
+                            <button class="btn primary-solid-btn">Login</button>
+                        </a>
+                    </li>
+                    <li class="hamburger-link"><a href="./docsite.html">Wishlist</a></li>
+                    <li class="hamburger-link"><a href="https://github.com/aman11s/Colorant-UI">Cart</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <main class="main-center mt-6">
+        <form class="authenticate-form p-5 radius-5 shadow">
+            <h2 class="h2 mb-4 text-center">Signup</h2>
+            <label for="email-input">Email address :</label>
+            <input type="text" id="email-input" class="input-box input-default" placeholder="Enter your email">
+
+            <label for="user-password">Password : </label>
+            <input type="password" id="user-password" class="input-box input-default" placeholder="Enter your password">
+            
+            <label for="confirm-password">Confirm Password : </label>
+            <input type="password" id="confirm-password" class="input-box input-default" placeholder="Re-enter your password">
+
+            <label for="t&c-checkbox" class="mt-2">
+                <input type="checkbox" id="t&c-checkbox">
+                <span>I accept all Terms & Conditions</span>
+            </label>
+            
+            <a href="#">
+                <button class="btn mt-3 primary-solid-btn">Create New Account</button>
+            </a>
+
+            <a href="./login.html" class="auth-link pt-3">
+                Already have an account <i class='right-arrow-icon bx bx-chevron-right'></i>
+            </a>
+            
+        </form>
+    </main>
+
+    <script src="https://colorant-ui.netlify.app/JS/navbar.js"></script>
+</body>
+
+</html>
