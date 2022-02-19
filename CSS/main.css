@@ -1,6 +1,7 @@
 @import './navbar.css';
 @import './authenticate.css';
 @import './aside.css';
+@import './wishlist.css';
 
 .short-width {
     width: 80%;
@@ -68,6 +69,10 @@
     .hide {
         display: none;
     }
+
+    .grid-minmax-card {
+        grid-template-columns: repeat(2, 1fr);
+    }
 }
 
 @media screen and (max-width: 450px) {
@@ -75,8 +80,12 @@
     .short-width {
         width: 90%;
     }
+}
 
-    .grid-minmax-card-center {
-        grid-template-columns: repeat(2, 1fr);
+@media screen and (max-width: 380px) {
+    
+    .btn-icon {
+        font-size: 18px;
+        padding-right: 0.2rem;
     }
 }
