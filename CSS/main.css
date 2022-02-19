@@ -1,5 +1,6 @@
 @import './navbar.css';
 @import './authenticate.css';
+@import './aside.css';
 
 .short-width {
     width: 80%;

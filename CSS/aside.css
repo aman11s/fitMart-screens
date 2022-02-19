@@ -1,0 +1,74 @@
+.space-between {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.slider {
+    width: 100%;
+} 
+
+.underline-link {
+    text-decoration: underline;
+}
+
+.underline-link:hover {
+    color: var(--primary-color);
+}
+
+.close-btn, .filter-btn {
+    display: none;
+}
+
+@media screen and (max-width: 600px) {
+    
+    .filter-btn {
+        display: block;
+        background-color: var(--grey-color);
+        position: sticky;
+        bottom: 0;
+        width: 100%;
+        text-align: center;
+        cursor: pointer;
+    }
+
+    .filter-container {
+        background-color: #fff;
+        height: 100vh;
+        position: fixed;
+        width: 50%;
+        top: 0;
+        left: 0;
+        padding: 2rem;
+        transform: translateX(-100%);
+        overflow-y: auto;
+        transition: all 0.3s ease-in-out;
+    }
+
+    .open-transition {
+        transform: translateX(0);
+    }
+
+    .aside-container {
+      z-index: 4;  
+    }
+
+    .close-btn {
+        display: block;
+        cursor: pointer;
+        font-size: 2.5rem;
+        position: absolute;
+        top: 1rem;
+        right: 1.8rem;
+    }
+
+    .drop-shadow {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        z-index: 3;
+        background-color: rgba(0, 0, 0, 0.6);
+    }
+}
