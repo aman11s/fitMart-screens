@@ -25,6 +25,13 @@
     .search-input {
         order: 2;
         width: 100%;
-        margin: 0.5rem auto 0.8rem;
+        margin: 0.5rem auto 1.2rem;
+    }
+}
+
+@media screen and (max-width: 350px) {
+    
+    .right-nav li {
+        margin: 0.5rem;
     }
 }
