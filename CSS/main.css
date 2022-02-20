@@ -2,11 +2,18 @@
 @import './authenticate.css';
 @import './aside.css';
 @import './wishlist.css';
+@import './cart.css';
 
 .short-width {
     width: 80%;
     margin-left: auto;
     margin-right: auto;
+}
+
+.container-flex-justify-center {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 .inline-block {
@@ -36,6 +43,10 @@
 }
 
 .card-header .btn {
+    margin-left: auto;
+}
+
+.card-header a {
     margin-left: auto;
 }
 
