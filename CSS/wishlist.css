@@ -1,3 +1,12 @@
 .bxs-heart {
     color: var(--pink-color);
 }
+
+.vertical-card {
+    display: flex;
+    flex-direction: column;
+}
+
+.vertical-card .card-footer {
+    margin-top: auto;
+}

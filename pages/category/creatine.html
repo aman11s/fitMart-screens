@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://colorant-ui.netlify.app/CSS/main.css">
+    <link rel="stylesheet" href="/CSS/main.css">
+    <title>Creatine | fitMart</title>
+</head>
+
+<body>
+
+    <div class="grid-page-layout">
+
+        <!-- Navbar -->
+        <nav class="nav-bar shadow">
+            <div class="container-flex-align-center short-width">
+                <div class="left-nav">
+                    <a class="h2" href="/index.html"><span class="primary-text-color">fit</span>Mart</a>
+                </div>
+
+                <!-- search input -->
+                <input type="text" class="input-box search-input input-default" placeholder="search">
+
+                <ul class="right-nav">
+                    <li>
+                        <a href="/pages/login.html" class="nav-pills">
+                            <button class="btn primary-solid-btn">Login</button>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="/pages/wishlist.html" class="nav-pills badge-container inline-block">
+                            <i class='badge-container-icon bx bx-heart'></i>
+                            <span class="icon-badge-number dnd">5</span>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="/pages/cart.html" class="nav-pills badge-container inline-block">
+                            <i class='badge-container-icon bx bx-cart'></i>
+                            <div class="icon-badge-number dnd">3</div>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+        <!-- Sidebar -->
+        <aside class="aside-container px-4 aside-height">
+            <div class="filter-container">
+                <i class='close-btn bx bx-x'></i>
+                <div class="mt-5 space-between">
+                    <h5 class="h5">Filter</h5>
+                    <a href="#" class="underline-link">Clear</a>
+                </div>
+    
+                <h5 class="h5 pt-5">Price</h5>
+                <div class="pt-2 space-between">
+                    <span>100</span>
+                    <span>5000</span>
+                    <span>10000</span>
+                </div>
+                <input type="range" class="slider" min="100" max="10000" value="7000">
+    
+                <div class="filter-section">
+                    <h5 class="h5 mb-2 pt-5">Category</h5>
+                    <label class="my-1" for="protein">
+                        <input type="checkbox" name="protein" id="protein"> Proteins
+                    </label>
+                    <label class="my-1" for="gainer">
+                        <input type="checkbox" name="gainer" id="gainer"> Gainers
+                    </label>
+                    <label class="my-1" for="pre-post-workout">
+                        <input type="checkbox" name="pre-post-workout" id="pre-post-workout"> Pre/ Post workout
+                    </label>
+                    <label class="my-1" for="multivitamins">
+                        <input type="checkbox" name="multivitamins" id="multivitamins"> Multivitamins
+                    </label>
+                </div>
+                
+                <div class="filter-section">
+                    <h5 class="h5 mb-2 pt-5">Rating</h5>
+                    <label class="my-1" for="4-stars-&-above">
+                        <input type="radio" name="rating" id="4-stars-&-above"> 4 stars & above
+                    </label>
+                    <label class="my-1" for="3-stars-&-above">
+                        <input type="radio" name="rating" id="3-stars-&-above"> 3 stars & above
+                    </label>
+                    <label class="my-1" for="2-stars-&-above">
+                        <input type="radio" name="rating" id="2-stars-&-above"> 2 stars & above
+                    </label>
+                    <label class="my-1" for="1-stars-&-above">
+                        <input type="radio" name="rating" id="1-stars-&-above"> 1 stars & above
+                    </label>
+                </div>
+    
+                <div class="filter-section">
+                    <h5 class="h5 mb-2 pt-5">Sort by</h5>
+                    <label class="my-1" for="price-low-to-high">
+                        <input type="radio" name="sort" id="price-low-to-high"> Price - Low to High
+                    </label>
+                    <label class="my-1" for="price-high-to-low">
+                        <input type="radio" name="sort" id="price-high-to-low"> Price - High to Low
+                    </label>
+                </div>
+            </div>
+        </aside>
+
+        <main class="main-container">
+            <h4 class="h4 mt-3 mx-3">Showing All Products</h2>
+            <div class="grid-minmax-card p-2">
+                <div class="vertical-card auto-width">
+                    <div class="card-header">
+                        <div class="card-img-container">
+                            <img class="card-img" src="/assets/products/creatine/dymatize-creatine.webp" alt="dymatize-creatine">
+                            <i class='card-wishlist-icon product-wishlist-icon bx bx-heart'></i>
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        <div class="item-price">Rs. 1,999</div>
+                        <div class="card-description">Dymatize creatine monohydrate</div>
+                    </div>
+                    <div class="card-footer">
+                        <button class="btn card-btn primary-outline-btn primary-btn-text-icon">
+                            <i class='btn-icon bx bxs-cart'></i>Add to cart
+                        </button>
+
+                        <button class="btn card-btn primary-solid-btn primary-btn-text-icon">
+                            <i class='btn-icon bx bxs-bolt'></i>Buy Now
+                        </button>
+                    </div>
+                </div>
+
+                <div class="vertical-card auto-width">
+                    <div class="card-header">
+                        <div class="card-img-container">
+                            <img class="card-img" src="/assets/products/creatine/gnc-creatine.webp" alt="gnc-creatine">
+                            <i class='card-wishlist-icon product-wishlist-icon bx bx-heart'></i>
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        <div class="item-price">Rs. 1,299</div>
+                        <div class="card-description">GNC Pro creatine monohydrate</div>
+                    </div>
+                    <div class="card-footer">
+                        <button class="btn card-btn primary-outline-btn primary-btn-text-icon">
+                            <i class='btn-icon bx bxs-cart'></i>Add to cart
+                        </button>
+
+                        <button class="btn card-btn primary-solid-btn primary-btn-text-icon">
+                            <i class='btn-icon bx bxs-bolt'></i>Buy Now
+                        </button>
+                    </div>
+                </div>
+
+                <div class="vertical-card auto-width">
+                    <div class="card-header">
+                        <div class="card-img-container">
+                            <img class="card-img" src="/assets/products/creatine/mb-creatine.webp" alt="mb-creatine">
+                            <i class='card-wishlist-icon product-wishlist-icon bx bx-heart'></i>
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        <div class="item-price">Rs. 499</div>
+                        <div class="card-description">MuscleBlaze creatine monohydrate</div>
+                    </div>
+                    <div class="card-footer">
+                        <button class="btn card-btn primary-outline-btn primary-btn-text-icon">
+                            <i class='btn-icon bx bxs-cart'></i>Add to cart
+                        </button>
+
+                        <button class="btn card-btn primary-solid-btn primary-btn-text-icon">
+                            <i class='btn-icon bx bxs-bolt'></i>Buy Now
+                        </button>
+                    </div>
+                </div>
+
+                <div class="vertical-card auto-width">
+                    <div class="card-header">
+                        <div class="card-img-container">
+                            <img class="card-img" src="/assets/products/creatine/on-creatine.webp" alt="on-creatine">
+                            <i class='card-wishlist-icon product-wishlist-icon bx bx-heart'></i>
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        <div class="item-price">Rs. 999</div>
+                        <div class="card-description">ON creatine monohydrate</div>
+                    </div>
+                    <div class="card-footer">
+                        <button class="btn card-btn primary-outline-btn primary-btn-text-icon">
+                            <i class='btn-icon bx bxs-cart'></i>Add to cart
+                        </button>
+
+                        <button class="btn card-btn primary-solid-btn primary-btn-text-icon">
+                            <i class='btn-icon bx bxs-bolt'></i>Buy Now
+                        </button>
+                    </div>
+                </div>
+            
+                <div class="vertical-card auto-width">
+                    <div class="card-header">
+                        <div class="card-img-container">
+                            <img class="card-img" src="/assets/products/creatine/dymatize-creatine.webp" alt="dymatize-creatine">
+                            <i class='card-wishlist-icon product-wishlist-icon bx bx-heart'></i>
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        <div class="item-price">Rs. 1,999</div>
+                        <div class="card-description">Dymatize creatine monohydrate</div>
+                    </div>
+                    <div class="card-footer">
+                        <button class="btn card-btn primary-outline-btn primary-btn-text-icon">
+                            <i class='btn-icon bx bxs-cart'></i>Add to cart
+                        </button>
+
+                        <button class="btn card-btn primary-solid-btn primary-btn-text-icon">
+                            <i class='btn-icon bx bxs-bolt'></i>Buy Now
+                        </button>
+                    </div>
+                </div>
+
+                <div class="vertical-card auto-width">
+                    <div class="card-header">
+                        <div class="card-img-container">
+                            <img class="card-img" src="/assets/products/creatine/gnc-creatine.webp" alt="gnc-creatine">
+                            <i class='card-wishlist-icon product-wishlist-icon bx bx-heart'></i>
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        <div class="item-price">Rs. 1,299</div>
+                        <div class="card-description">GNC Pro creatine monohydrate</div>
+                    </div>
+                    <div class="card-footer">
+                        <button class="btn card-btn primary-outline-btn primary-btn-text-icon">
+                            <i class='btn-icon bx bxs-cart'></i>Add to cart
+                        </button>
+
+                        <button class="btn card-btn primary-solid-btn primary-btn-text-icon">
+                            <i class='btn-icon bx bxs-bolt'></i>Buy Now
+                        </button>
+                    </div>
+                </div>
+
+                <div class="vertical-card auto-width">
+                    <div class="card-header">
+                        <div class="card-img-container">
+                            <img class="card-img" src="/assets/products/creatine/mb-creatine.webp" alt="mb-creatine">
+                            <i class='card-wishlist-icon product-wishlist-icon bx bx-heart'></i>
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        <div class="item-price">Rs. 499</div>
+                        <div class="card-description">MuscleBlaze creatine monohydrate</div>
+                    </div>
+                    <div class="card-footer">
+                        <button class="btn card-btn primary-outline-btn primary-btn-text-icon">
+                            <i class='btn-icon bx bxs-cart'></i>Add to cart
+                        </button>
+
+                        <button class="btn card-btn primary-solid-btn primary-btn-text-icon">
+                            <i class='btn-icon bx bxs-bolt'></i>Buy Now
+                        </button>
+                    </div>
+                </div>
+
+                <div class="vertical-card auto-width">
+                    <div class="card-header">
+                        <div class="card-img-container">
+                            <img class="card-img" src="/assets/products/creatine/on-creatine.webp" alt="on-creatine">
+                            <i class='card-wishlist-icon product-wishlist-icon bx bx-heart'></i>
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        <div class="item-price">Rs. 999</div>
+                        <div class="card-description">ON creatine monohydrate</div>
+                    </div>
+                    <div class="card-footer">
+                        <button class="btn card-btn primary-outline-btn primary-btn-text-icon">
+                            <i class='btn-icon bx bxs-cart'></i>Add to cart
+                        </button>
+
+                        <button class="btn card-btn primary-solid-btn primary-btn-text-icon">
+                            <i class='btn-icon bx bxs-bolt'></i>Buy Now
+                        </button>
+                    </div>
+                </div>
+            
+                <div class="vertical-card auto-width">
+                    <div class="card-header">
+                        <div class="card-img-container">
+                            <img class="card-img" src="/assets/products/creatine/dymatize-creatine.webp" alt="dymatize-creatine">
+                            <i class='card-wishlist-icon product-wishlist-icon bx bx-heart'></i>
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        <div class="item-price">Rs. 1,999</div>
+                        <div class="card-description">Dymatize creatine monohydrate</div>
+                    </div>
+                    <div class="card-footer">
+                        <button class="btn card-btn primary-outline-btn primary-btn-text-icon">
+                            <i class='btn-icon bx bxs-cart'></i>Add to cart
+                        </button>
+
+                        <button class="btn card-btn primary-solid-btn primary-btn-text-icon">
+                            <i class='btn-icon bx bxs-bolt'></i>Buy Now
+                        </button>
+                    </div>
+                </div>
+
+                <div class="vertical-card auto-width">
+                    <div class="card-header">
+                        <div class="card-img-container">
+                            <img class="card-img" src="/assets/products/creatine/gnc-creatine.webp" alt="gnc-creatine">
+                            <i class='card-wishlist-icon product-wishlist-icon bx bx-heart'></i>
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        <div class="item-price">Rs. 1,299</div>
+                        <div class="card-description">GNC Pro creatine monohydrate</div>
+                    </div>
+                    <div class="card-footer">
+                        <button class="btn card-btn primary-outline-btn primary-btn-text-icon">
+                            <i class='btn-icon bx bxs-cart'></i>Add to cart
+                        </button>
+
+                        <button class="btn card-btn primary-solid-btn primary-btn-text-icon">
+                            <i class='btn-icon bx bxs-bolt'></i>Buy Now
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+        </main>
+    </div>
+
+    <!-- Button to open aside for smaller display -->
+    <button class="small-text p-2 filter-btn">Add filter & sort</button>
+
+    <footer class="footer-container p-2">
+        <p class="pt-1 pb-2 small-text">Made with <span class="code-symbol">&lt;/></span> by Aman Singh </p>
+        <ul>
+            <li class="footer-link"><a href="https://github.com/aman11s" target="_blank"><i
+                        class='bx bxl-github'></i></a></li>
+            <li class="footer-link"><a href="https://twitter.com/aman11s" target="_blank"><i
+                        class='bx bxl-twitter'></i></a></li>
+            <li class="footer-link"><a href="https://www.linkedin.com/in/aman11s/" target="_blank"><i
+                        class='bx bxl-linkedin-square'></i></a></li>
+        </ul>
+        <div>&copy 2022 | fitMart | All Rights Reserved</div>
+    </footer>
+    <div class="drop"></div>
+
+    <script src="/JS/filterBtn.js"></script>
+</body>
+
+</html>
