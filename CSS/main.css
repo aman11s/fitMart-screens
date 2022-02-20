@@ -3,6 +3,7 @@
 @import './aside.css';
 @import './wishlist.css';
 @import './cart.css';
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,900&display=swap');
 
 .short-width {
     width: 80%;
@@ -14,6 +15,65 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+}
+
+.hero-section {
+    max-height: 70vh;
+    overflow: hidden;
+    position: relative;
+}
+
+.overlay {
+    font-family: 'Roboto', sans-serif;
+    position: absolute;
+    color: #fff;
+    text-shadow: 2px 4px 3px rgba(0,0,0,0.3);
+    top: 0;
+    right: 0;
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.overlay h1 {
+    font-size: 4rem;
+}
+
+.overlay p {
+    font-size: 2rem;
+}
+
+.category {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+    justify-items: center;
+    gap: 2rem;
+}
+
+.category-item {
+    max-width: 20rem;
+    border: 1px solid var(--grey-color);
+    cursor: pointer;
+    position: relative;
+    transition: all 0.6s ease-in-out;
+}
+
+.category-item:hover {
+    transform: scale(1.05);
+}
+
+.category-text {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    text-shadow: 2px 4px 3px rgba(0,0,0,0.3);
 }
 
 .inline-block {
@@ -30,12 +90,6 @@
 
 .black-color {
     color: var(--primary-black-color);
-}
-
-.main-links > li {
-    padding: 1rem;
-    margin: 1rem 2rem;
-    font-size: 1.2rem;
 }
 
 .auto-width {
@@ -64,6 +118,14 @@
 }
 
 @media screen and (max-width: 950px) {
+
+    .overlay h1 {
+        font-size: 2.5rem;
+    }
+
+    .overlay p {
+        font-size: 1.5rem;
+    }
     
     .main-links > li {
         margin: 0.5rem;
@@ -72,7 +134,11 @@
 }
 
 @media screen and (max-width: 600px) {
-    
+
+    .category {
+        grid-template-columns: repeat(auto-fit, minmax(13rem, 1fr));
+    }
+
     .short-width {
         width: 85%;
     }
@@ -87,7 +153,19 @@
 }
 
 @media screen and (max-width: 450px) {
+
+    .category-item .h2 {
+        font-size: 1.5rem;
+    }
     
+    .overlay h1 {
+        font-size: 2rem;
+    }
+
+    .overlay p {
+        font-size: 1.2rem;
+    }
+
     .short-width {
         width: 90%;
     }
