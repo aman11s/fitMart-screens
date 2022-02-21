@@ -1,6 +1,6 @@
 <h1 align="center">
   <br />
-  <a href="https://fitmart.netlify.app/"><img width= "100px" src="/Users/aman/Documents/GitHub/fitMart/favicon/apple-touch-icon.png" alt="fitMart" width="200">
+  <a href="https://fitmart.netlify.app/"><img width= "100px" src="favicon/apple-touch-icon.png" alt="fitMart" width="200">
   </a>
   <br />
   fitMart
@@ -41,7 +41,7 @@
 ## **Preview**
 
 <p align="center">
-  <img width="100%" src="/Users/aman/Documents/GitHub/fitMart/assets/fitMart-preview.gif" alt="fitMart-preview"/>
+  <img width="100%" src="assets/fitMart-preview.gif" alt="fitMart-preview"/>
 </p>
 
 <hr />
